@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<title>Tech Blog</title>
+<script>
+$(document).ready(function(){
+$('li').hover(function(){
+$(this).css({"text-decoration": "none", "background": "#0066ff"});
+},
+function(){
+$(this).css({"background": "#141f1f"});
+});
+});
+</script>
+</head>
+<body>
+<header>
+<h1><span style="color:white;">erik</span><span style="color:gray;">oslawski</span></h1>
+<nav>
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">News</a></li>
+<li><a href="">Downloads</a></li>
+<li><a href="">Support</a></li>
+</ul>
+</nav>
+</header>
+<div id="main">
+<div class="cycle-slideshow">
+<img src="css/img/headerphoto.jpg" alt="Main Image"/>
+<img src="css/img/headerphoto2.jpg" alt="Main Image"/>
+<img src="css/img/headerphoto3.jpg" alt="Main Image"/>
+<img src="css/img/headerphoto4.jpg" alt="Main Image"/>
+</div>
+<div id="left-main">
+<article>
+<h3>Template Info</h3>
+<hr />
+<p> PixelGreen 1.2 is a free, W3C-compliant, CSS-based website template by styleshout.com. This work is distributed under the Creative Commons Attribution 2.5 License, which means that you are free to use and modify it for any purpose. All I ask is that you include a link back to my website in your credits.
+For more free designs, you can visit my website to see my other works.
+Good luck and I hope you find my free templates useful!</p>
+</article>
+<article>
+<h3>New Post</h3>
+<hr/>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. 
+Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, 
+lectus turpis varius lorem, eu posuere nunc justo tempus leo. 
+Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, 
+ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, 
+leo a pharetra condimentum, lorem tellus eleifend magna, eget 
+fringilla velit magna id neque. Curabitur vel urna. 
+In tristique orci porttitor ipsum. Aliquam ornare diam iaculis nibh.</p>
+</article>
+</div>
+<aside>
+<article>
+<h4>About</h4>
+<hr />
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. 
+Suspendisse bibendum. Cras id urna. Morbi tincidunt, 
+orci ac convallis aliquam, lectus turpis varius lorem, 
+eu posuere nunc justo tempus leo.</p>
+</article>
+</aside>
+</div>
+
+</body>
+</html>
